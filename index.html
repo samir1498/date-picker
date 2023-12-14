@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Date Picker</title>
+  <script src="./src/main.ts" type="module"></script>
+</head>
+
+<body class="m-0 mt-4 flex justify-center">
+
+  <div class="CONTAINER relative inline-block">
+    <button class="BUTTON cursor-pointer bg-gray-900 text-white p-2 px-4 rounded-lg"></button>
+    <div
+      class="PICKER flex flex-col items-center absolute mt-4 top-full transform -translate-x-1/2 left-1/2 p-4 rounded-lg shadow-xl bg-white w-96 border">
+
+      <div class="HEADER flex justify-between font-bold text-sm items-center w-1/2">
+        <button class="PREV-MONTH">&larr;</button>
+        <span class="CURRENT-MONTH"></span>
+        <button class="NEXT-MONTH">&rarr;</button>
+      </div>
+      <div class="DAYS-OF-WEEK font-bold text-xs text-gray-900 grid grid-cols-7 grid-rows-1 gap-2 mt-4 w-full">
+
+      </div>
+      <div class="GRID-DATES text-gray-500 grid grid-cols-7 grid-rows-4 gap-2 w-full">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
